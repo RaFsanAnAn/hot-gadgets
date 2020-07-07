@@ -1,0 +1,116 @@
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+    text-align: center;
+}
+
+
+
+.buy-now-button{
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+
+}
+body{
+    font-weight: 600;
+   
+}
+
+
+.container{
+  margin-bottom: 100px ;
+  border-radius: 10px;
+}
+
+  .carousel-item{
+    padding: 20px 40px;
+}
+
+.carousel{
+    height: 650px;
+    background-image: url(images/bg-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.carousel img{
+    width: 100%;
+}
+
+p{
+    color: gray;
+    font-weight: 400;
+}
+
+.card{
+    margin-bottom: 100px;
+    text-align: center;
+}
+.card img{
+    width: 100%;
+    padding: 20px 30px;
+
+}
+
+.cat1 , .cat2 , .cat3{
+    
+        border: none;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px lightgrey;
+        padding: 50px;
+        margin: 10px;
+    }
+
+  .cat1 img{
+    
+    margin-bottom: 20px;
+}
+.cat2 img{
+    
+        margin-bottom: 20px;
+    }
+
+    a{
+        color: orange;
+    }
+
+
+    .carousel-indicators {
+        margin-top: 300px;
+    }
+    .carousel-indicators li {
+        background-color: gray;
+        width: 15px;
+        height: 10px;
+        margin: 10px;
+        text-indent: 0;
+        cursor: pointer;
+        border: none;
+        border-radius: 5px;
+        display: inline-block;
+    }
+    .carousel-indicators .active {
+        background-image: linear-gradient(to right, orange 50%, yellow 100%);
+        width: 40px;
+        height: 10px;
+        margin: 10px;
+    }
+
+
+    .categories {
+        text-align: center;
+    }
+
+    .category-line {
+        height: 8px;
+        width: 120px;
+        border-radius: 5px;
+        background-color: orange;
+        margin: auto;
+        margin-bottom: 50px;
+    }
